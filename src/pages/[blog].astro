@@ -6,8 +6,8 @@ export async function getStaticPaths({rss}) {
   const sortedPosts = allPosts.sort((a, b) => b.frontmatter.date.valueOf() - a.frontmatter.date.valueOf())
 
   rss({
-    title: 'Web Dev Simplified Blog',
-    description: 'Web Dev Simplified Blog',
+    title: 'Leaf of Kindness',
+    description: 'Leaf of Kindness',
     customData: `<language>en-us</language>`,
     items: sortedPosts.map(item => ({
       title: item.frontmatter.title,

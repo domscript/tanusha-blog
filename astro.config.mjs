@@ -11,7 +11,7 @@ export default defineConfig(
   /** @type {import('astro').AstroUserConfig} */
   {
     integrations: [preact(), sitemap()],
-    site: "https://blog.jlfgjfklgjfkgjfkgjfk.com",
+    site: "https://leafofkindness.netlify.app/",
     markdown: {
       // TODO: Maybe use shiki and see if it is better and has line highlighting.
       syntaxHighlight: false,
